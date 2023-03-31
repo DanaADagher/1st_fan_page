@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(19, 112, 19);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: rgb(136, 83, 27);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+nav a:hover {
+    color: rgb(18, 128, 18);
+}
+
+.nb1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("back1.jpg");
+    height: 450px;
+    background-size: cover;
+    text-align: center;
+    color: rgb(131, 180, 255);
+}
+
+.nb1 h2 {
+    font-size: 60px;
+    font-style: initial;
+    margin-bottom: 25px;
+}
+
+.nb1 button {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: rgb(1, 112, 19);
+    color: rgb(122, 70, 20);
+    border-color: aliceblue;
+    border-radius: 7px;
+}
+
+.nb2 {
+    text-align: center;
+    padding: 50px 15px;
+}
+
+.nb2 h2 {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.nb2 p {
+    margin-bottom: 50px;
+    line-height: 1.7;
+    font-size: 20px;
+}
+
+
+.nb3 {
+background-image: url("Minecraft HD Papel De Parede.jpeg");
+text-align: center;
+background-size: 200px 200px;
+background-repeat: no-repeat;
+background-position: center;
+}
+.nb3 h2{
+    color:rgb(122, 70, 20); ;
+    font-size: 40px;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 10px 20px;
+    padding-bottom: 50px;
+}
+.images img{
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+    border-style: double;
+}
+
+footer{
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(122, 70, 20);
+}
+
+.off{
+    font-weight:bold;
+    font-size: 15px;
+    color: rgb(8, 7, 7);
+    font-style: normal;
+    padding-bottom: 50px;
+    padding-left: 25px;
+}
+.off a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.off a:hover{
+color: black;
+}
+.off ul{
+    list-style:none;
+    display: grid;
+}
